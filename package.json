@@ -1,0 +1,31 @@
+{
+  "name": "js-data-structures",
+  "version": "0.0.0",
+  "description": "A collection of basic data structures written in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --opts test/config/mocha.opts",
+    "test:watch": "mocha --opts test/config/mocha.opts --watch",
+    "prepush": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/afsmith92/js-data-structures.git"
+  },
+  "keywords": [
+    "javascript",
+    "data",
+    "structures"
+  ],
+  "author": "afsmith92@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afsmith92/js-data-structures/issues"
+  },
+  "homepage": "https://github.com/afsmith92/js-data-structures",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "husky": "^0.14.3",
+    "mocha": "^4.0.1"
+  }
+}
